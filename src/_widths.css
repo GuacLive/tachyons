@@ -30,6 +30,10 @@
 
      -third      = 100% / 3 (Not supported in opera mini or IE8)
      -two-thirds = 100% / 1.5 (Not supported in opera mini or IE8)
+
+     -sixth       = 100% / 6 (Not supported in opera mini or IE8)
+     -five-sixths = 100% / 1.2 (Not supported in opera mini or IE8)
+
      -auto       = string value auto
 
 
@@ -92,7 +96,8 @@
 .max-vw-100 { max-width: 100vw; }
 
 /* String Properties */
-
+.w-sixth { width: calc(100% / 6); }
+.w-five-sixths { width: calc(100% / 1.2); }
 .w-auto { width: auto; }
 
 
@@ -138,6 +143,8 @@
   .max-vw-75-ns { max-width: 75vw; }
   .min-vw-100-ns { min-width: 100vw; }
   .max-vw-100-ns { max-width: 100vw; }
+  .w-sixth-ns { width: calc(100% / 6); }
+  .w-five-sixths-ns { width: calc(100% / 1.2); }
   .w-auto-ns { width: auto; }
 }
 
@@ -183,6 +190,8 @@
   .max-vw-75-m { max-width: 75vw; }
   .min-vw-100-m { min-width: 100vw; }
   .max-vw-100-m { max-width: 100vw; }
+  .w-sixth-m { width: calc(100% / 6); }
+  .w-five-sixths-m { width: calc(100% / 1.2); }
   .w-auto-m {    width: auto; }
 }
 
@@ -228,5 +237,7 @@
   .max-vw-75-l { max-width: 75vw; }
   .min-vw-100-l { min-width: 100vw; }
   .max-vw-100-l { max-width: 100vw; }
+  .w-sixth-l { width: calc(100% / 6); }
+  .w-five-sixths-l { width: calc(100% / 1.2); }
   .w-auto-l {    width: auto; }
 }
